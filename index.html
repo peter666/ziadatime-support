@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZiadaTime — Support</title>
+    <style>
+        :root {
+            --bg: #1f1f1f;
+            --card: #2a2a2a;
+            --text: #e9e9e9;
+            --muted: #a0a0a0;
+            --accent: #FFBC00;
+            --rule: rgba(255, 255, 255, 0.08);
+        }
+
+        * { box-sizing: border-box; }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.55;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 64px 24px 96px;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            margin: 0 0 6px;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            color: var(--muted);
+            margin: 0;
+            font-size: 17px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 36px 0 10px;
+            color: var(--accent);
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin: 0 0 14px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 188, 0, 0.4);
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--rule);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin-top: 14px;
+        }
+
+        footer {
+            margin-top: 64px;
+            padding-top: 24px;
+            border-top: 1px solid var(--rule);
+            color: var(--muted);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <h1>ZiadaTime</h1>
+        <p class="tagline">A simple multi-stopwatch app for iPhone.</p>
+    </header>
+
+    <h2>Support</h2>
+    <p>
+        Questions, bug reports, or feature ideas? Email
+        <a href="mailto:peter.purmonen@gmail.com">peter.purmonen@gmail.com</a>
+        and I&rsquo;ll get back to you.
+    </p>
+    <p>
+        When reporting a problem, it helps to include:
+    </p>
+    <div class="card">
+        <p style="margin:0">
+            &middot; iPhone model and iOS version<br>
+            &middot; ZiadaTime version (Settings &rarr; General &rarr; iPhone Storage &rarr; ZiadaTime)<br>
+            &middot; A short description of what you did and what you expected
+        </p>
+    </div>
+
+    <h2>Privacy</h2>
+    <p>
+        ZiadaTime does not collect, transmit, store, or share any personal data.
+    </p>
+    <p>
+        All timer data &mdash; the timers you create, their names, and which
+        ones are active &mdash; lives only on your device, in the app&rsquo;s
+        own storage. Nothing is sent over the network. There are no analytics,
+        no tracking, no advertising, and no third-party SDKs.
+    </p>
+    <p>
+        Deleting the app removes all of its data from your device.
+    </p>
+
+    <footer>
+        &copy; Peter Purmonen
+    </footer>
+</main>
+</body>
+</html>
