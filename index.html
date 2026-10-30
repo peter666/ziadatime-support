@@ -59,6 +59,12 @@
             letter-spacing: -0.01em;
         }
 
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 24px 0 8px;
+        }
+
         p {
             margin: 0 0 14px;
         }
@@ -94,33 +100,61 @@
 <main>
     <header>
         <h1>ZiadaTime</h1>
-        <p class="tagline">A simple multi-stopwatch app for iPhone.</p>
+        <p class="tagline">A simple multi-stopwatch app for Mac, iPhone, iPad and Apple Watch.</p>
     </header>
 
     <h2>Support</h2>
+    <p>
+        Questions, bug reports, or feature ideas? Email
+        <a href="mailto:peter.purmonen@gmail.com">peter.purmonen@gmail.com</a>
+        and I&rsquo;ll get back to you.
+    </p>
     <p>
         When reporting a problem, it helps to include:
     </p>
     <div class="card">
         <p style="margin:0">
-            &middot; iPhone model and iOS version<br>
-            &middot; ZiadaTime version (Settings &rarr; General &rarr; iPhone Storage &rarr; ZiadaTime)<br>
+            &middot; Your device (Mac, iPhone, iPad or Apple Watch) and its system version<br>
+            &middot; ZiadaTime version (on the Mac: ZiadaTime &rarr; About ZiadaTime; on iPhone and iPad:
+            Settings &rarr; General &rarr; iPhone Storage &rarr; ZiadaTime)<br>
             &middot; A short description of what you did and what you expected
         </p>
     </div>
+    <p>
+        <strong>Stopwatches not syncing?</strong> Check that each device is signed in to the same
+        Apple Account with iCloud turned on, and that <strong>iCloud Sync</strong> is on in
+        ZiadaTime&rsquo;s Settings. Changes show up within seconds while ZiadaTime is open on screen,
+        otherwise the next time you open it.
+    </p>
 
     <h2>Privacy</h2>
     <p>
-        ZiadaTime does not collect, transmit, store, or share any personal data.
+        ZiadaTime does not collect or share any personal data, and the developer never
+        receives any of it.
     </p>
     <p>
-        All timer data &mdash; the timers you create, their names, and which
-        ones are active &mdash; lives only on your device, in the app&rsquo;s
-        own storage. Nothing is sent over the network. There are no analytics,
-        no tracking, no advertising, and no third-party SDKs.
+        All stopwatch data &mdash; the stopwatches you create, their names and groups,
+        which ones are active and their running times &mdash; is stored on your
+        device, in the app&rsquo;s own storage. The Apple Watch app exchanges it
+        only with ZiadaTime on your paired iPhone, and the Mac&rsquo;s desktop
+        widgets read it from the Mac app&rsquo;s own storage. There are no
+        analytics, no tracking, no advertising, and no third-party SDKs.
+    </p>
+    <h3>iCloud Sync</h3>
+    <p>
+        When you&rsquo;re signed in to iCloud, ZiadaTime keeps this data the same on your
+        iPhone, iPad and Mac by storing a copy in your own private iCloud account
+        (Apple&rsquo;s CloudKit). Only you can see it: the developer has no access to it, and it
+        is never shared with anyone. Apple&rsquo;s privacy policy covers how iCloud stores it.
     </p>
     <p>
-        Deleting the app removes all of its data from your device.
+        You can turn iCloud Sync off in ZiadaTime&rsquo;s Settings. <strong>Remove iCloud
+        Data</strong>, also in Settings, deletes ZiadaTime&rsquo;s data from iCloud; the stopwatches
+        on your devices stay.
+    </p>
+    <p>
+        Deleting the app removes all of its data from your device. If iCloud Sync is on, use
+        <strong>Remove iCloud Data</strong> first to delete the copy in iCloud too.
     </p>
 
     <footer>
